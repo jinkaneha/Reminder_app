@@ -13,7 +13,7 @@ def send_reminder(msg):
 def schedule(date):
     hour = date.hour
 
-    # Remind for lunch+water time at 1 PM
+    # Remind for lunch+water time at 1 PM!!!!!!
     if hour == 13 and is_notification_sent[hour] == 0:
         is_notification_sent[hour] = 1
         send_reminder("It's lunchtime and time to stay hydrated!")
